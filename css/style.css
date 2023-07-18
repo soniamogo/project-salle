@@ -122,6 +122,7 @@
         padding: 15px 0px 15px 40px;
     }
 /* /fin estilos nosotros */
+
 /* estilos servicios */
     #services{
         text-align: center;
@@ -137,9 +138,16 @@
         border-radius: 50%;
         border: 3px solid #d3d3d3;
         color: #61458C;
-        padding: 20px;
+        padding: 15px;
         margin-left: 10px;
         margin-top: -50px;
+        transition: all 0.9s ease;
+    }
+
+    #services i:hover{
+        background-color: #61458C;
+        color: white;
+        border-color: #61458C;
     }
 
     #services p, #services h3{
@@ -153,13 +161,40 @@
     }
 
 /* /fin estilos servicios */
+
+/* estilos portfolio */
+    #portfolio{
+        background-color: #f2f2f2;
+        text-align: center;
+        padding-bottom: 60px;
+    
+    }
+
+    #portfolio p{
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+
+    #portfolio figure img{
+        width: 200px;
+        height: 120px;
+        transition: all 0.9s ease;
+    }
+
+    #portfolio figure img:hover{
+        transform: rotate(-10deg);
+    }
+
+    #portfolio img.rotation:hover{
+        transform: rotate(1turn);
+        border-radius: 50%;
+    }
+/* /fin estilos portfolio */
 main section img{
     width: 300px;
     height: 200px;
 }
-figure{
-    display: inline-block;
-}
+
 footer img{
     width: 200px;
 }
